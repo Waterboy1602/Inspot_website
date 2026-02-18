@@ -2,19 +2,20 @@ import { useState } from "react";
 import { Link } from "react-router";
 import { Menu, X, Globe } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
-import logo from "figma:asset/827541c5489ac8736a6ba611d18bae13f7e8b70b.png";
+// import logo from "figma:asset/827541c5489ac8736a6ba611d18bae13f7e8b70b.png";
+import logo from "figma:asset/logo.svg";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
 
   const navItems = [
-    { label: t('nav.praktisch'), href: "/praktisch" },
-    { label: t('nav.bedrijven'), href: "/voor-bedrijven" },
-    { label: t('nav.faq'), href: "/faq" },
-    { label: t('nav.overOns'), href: "/over-ons" },
-    { label: t('nav.sponsors'), href: "/sponsors" },
-    { label: t('nav.contact'), href: "/contact" },
+    { label: t("nav.praktisch"), href: "/praktisch" },
+    { label: t("nav.bedrijven"), href: "/voor-bedrijven" },
+    { label: t("nav.faq"), href: "/faq" },
+    { label: t("nav.overOns"), href: "/over-ons" },
+    { label: t("nav.sponsors"), href: "/sponsors" },
+    { label: t("nav.contact"), href: "/contact" },
   ];
 
   return (
@@ -22,8 +23,8 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
-            <img src={logo} alt="InSpot" className="h-[148px]" />
+          <Link to="/" className="flex items-center h-full">
+            <img src={logo} alt="InSpot" className="h-8 w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -37,34 +38,38 @@ export function Navigation() {
                 {item.label}
               </Link>
             ))}
-            
+
             {/* Language Switcher */}
             <div className="flex items-center bg-gray-100 rounded-full p-1 ml-2">
               <button
-                onClick={() => setLanguage('nl')}
+                onClick={() => setLanguage("nl")}
                 className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
-                  language === 'nl' ? "bg-[#c11720] text-white" : "text-gray-500 hover:text-gray-700"
+                  language === "nl"
+                    ? "bg-[#c11720] text-white"
+                    : "text-gray-500 hover:text-gray-700"
                 }`}
               >
                 NL
               </button>
               <button
-                onClick={() => setLanguage('en')}
+                onClick={() => setLanguage("en")}
                 className={`px-3 py-1 rounded-full text-xs font-bold transition-colors ${
-                  language === 'en' ? "bg-[#c11720] text-white" : "text-gray-500 hover:text-gray-700"
+                  language === "en"
+                    ? "bg-[#c11720] text-white"
+                    : "text-gray-500 hover:text-gray-700"
                 }`}
               >
                 EN
               </button>
             </div>
 
-            <a 
+            <a
               href="https://inspot.weticket.io/inspot/shop"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#c11720] text-white px-5 py-2 rounded-full font-medium hover:bg-[#a1131a] transition-colors whitespace-nowrap ml-2"
             >
-              {t('nav.buyTickets')}
+              {t("nav.buyTickets")}
             </a>
           </div>
 
@@ -72,7 +77,7 @@ export function Navigation() {
           <div className="lg:hidden flex items-center gap-4">
             <div className="flex items-center bg-gray-100 rounded-full p-1">
               <button
-                onClick={() => setLanguage(language === 'nl' ? 'en' : 'nl')}
+                onClick={() => setLanguage(language === "nl" ? "en" : "nl")}
                 className="p-1 text-gray-700 flex items-center gap-1 text-sm font-bold uppercase"
               >
                 <Globe className="size-4" />
@@ -103,14 +108,14 @@ export function Navigation() {
                   {item.label}
                 </Link>
               ))}
-              <a 
+              <a
                 href="https://inspot.weticket.io/inspot/shop"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#c11720] text-white px-5 py-3 rounded-full font-medium hover:bg-[#a1131a] transition-colors text-center"
                 onClick={() => setIsOpen(false)}
               >
-                {t('nav.buyTickets')}
+                {t("nav.buyTickets")}
               </a>
             </div>
           </div>

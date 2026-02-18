@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router";
 import { Menu, X } from "lucide-react";
-import logo from "figma:asset/827541c5489ac8736a6ba611d18bae13f7e8b70b.png";
+// import logo from "figma:asset/827541c5489ac8736a6ba611d18bae13f7e8b70b.png";
+import logo from "figma:asset/logo.svg";
 
 export function NavigationMetTickets() {
   const [isOpen, setIsOpen] = useState(false);

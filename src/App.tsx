@@ -22,18 +22,20 @@ export default function App() {
         <ScrollToTop />
         <div className="min-h-screen bg-white">
           <Navigation />
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/praktisch" element={<PraktischPage />} />
-            <Route path="/voor-bedrijven" element={<VoorBedrijvenPage />} />
-            <Route path="/kunstexposities" element={<KunstexpositiesPage />} />
-            <Route path="/food-and-drinks" element={<FoodAndDrinksPage />} />
-            <Route path="/avondconcert" element={<AvondconcertPage />} />
-            <Route path="/faq" element={<FAQPage />} />
-            <Route path="/over-ons" element={<OverOnsPage />} />
-            <Route path="/sponsors" element={<SponsorsPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes>
+          <main className="pt-16">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/praktisch" element={<PraktischPage />} />
+              <Route path="/voor-bedrijven" element={<VoorBedrijvenPage />} />
+              <Route path="/kunstexposities" element={<KunstexpositiesPage />} />
+              <Route path="/food-and-drinks" element={<FoodAndDrinksPage />} />
+              <Route path="/avondconcert" element={<AvondconcertPage />} />
+              <Route path="/faq" element={<FAQPage />} />
+              <Route path="/over-ons" element={<OverOnsPage />} />
+              <Route path="/sponsors" element={<SponsorsPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+            </Routes>
+          </main>
           <Footer />
         </div>
       </Router>

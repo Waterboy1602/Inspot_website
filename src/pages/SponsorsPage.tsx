@@ -1,9 +1,9 @@
 import { Heart, Mail } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { useLanguage } from "../context/LanguageContext";
-import logo1 from "figma:asset/a523d345fc26efa4506900f88cd8dabda852fcc1.png";
-import vives from "figma:asset/2e7890bcf03482d3b8bc82228917c8972edebc07.png";
-import cm from "figma:asset/214250d6873a35b4f189f5f1d435a5116118384e.png";
+import logo1 from "figma:asset/teledesk.png";
+import vives from "figma:asset/entrepot.png";
+import cm from "figma:asset/cm.png";
 const entrepot =
   "https://images.unsplash.com/photo-1557821552-17105176677c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080";
 
@@ -20,12 +20,14 @@ export function SponsorsPage() {
         />
         <div className="absolute inset-0 bg-black/40" />
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center text-white">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#77160e] mb-6">
-              <Heart className="size-10" />
+          <div className="text-center text-white px-4">
+            <div className="inline-flex items-center justify-center w-14 h-14 md:w-20 md:h-20 rounded-full bg-[#77160e] mb-4 md:mb-6">
+              <Heart className="size-7 md:size-10" />
             </div>
-            <h1 className="text-white mb-4">{t("sponsors.title")}</h1>
-            <p className="text-xl max-w-2xl mx-auto px-4">{t("sponsors.subtitle")}</p>
+            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl">
+              {t("sponsors.title")}
+            </h1>
+            <p className="text-base md:text-xl max-w-2xl mx-auto">{t("sponsors.subtitle")}</p>
           </div>
         </div>
       </div>
