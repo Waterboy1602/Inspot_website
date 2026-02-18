@@ -19,7 +19,7 @@ export function VoorBedrijvenPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#77160e] mb-6">
               <Briefcase className="size-10" />
             </div>
-            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl">
+            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
               {language === "nl" ? "Voor bedrijven" : "For companies"}
             </h1>
             <p className="text-base md:text-xl max-w-2xl mx-auto">

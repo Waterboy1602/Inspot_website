@@ -21,7 +21,9 @@ export function AvondconcertPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#002F49] mb-6">
               <Music className="size-10" />
             </div>
-            <h1 className="text-white mb-4">{language === "nl" ? "Concert" : "Concert"}</h1>
+            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
+              {language === "nl" ? "Concert" : "Concert"}
+            </h1>
             <p className="text-xl max-w-2xl mx-auto px-4">
               {language === "nl"
                 ? "Sluit de dag af met een concert van opkomend talent. Ontdek de muzikanten van morgen in een intieme setting."

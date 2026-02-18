@@ -24,7 +24,7 @@ export function SponsorsPage() {
             <div className="inline-flex items-center justify-center w-14 h-14 md:w-20 md:h-20 rounded-full bg-[#77160e] mb-4 md:mb-6">
               <Heart className="size-7 md:size-10" />
             </div>
-            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl">
+            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
               {t("sponsors.title")}
             </h1>
             <p className="text-base md:text-xl max-w-2xl mx-auto">{t("sponsors.subtitle")}</p>

@@ -21,7 +21,9 @@ export function FoodAndDrinksPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#c11720] mb-6">
               <Lightbulb className="size-10" />
             </div>
-            <h1 className="text-white mb-4">Food and Drinks</h1>
+            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
+              Food and Drinks
+            </h1>
             <p className="text-xl max-w-2xl mx-auto px-4">
               {language === "nl"
                 ? "Geniet van heerlijke hapjes en verfrissende drankjes tijdens het evenement."

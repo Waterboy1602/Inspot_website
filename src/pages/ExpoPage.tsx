@@ -21,8 +21,10 @@ export function KunstexpositiesPage() {
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#77160e] mb-6">
               <Palette className="size-10" />
             </div>
-            <h1 className="text-white mb-4">{language === "nl" ? "Expo" : "Exhibition"}</h1>
-            <p className="text-xl max-w-2xl mx-auto px-4">
+            <h1 className="text-white mb-3 md:mb-4 text-3xl md:text-4xl lg:text-5xl font-bold">
+              {language === "nl" ? "Expo" : "Exhibition"}
+            </h1>
+            <p className="text-base md:text-xl max-w-2xl mx-auto px-4">
               {language === "nl"
                 ? "Ontdek lokaal talent tijdens onze kunstexpositie."
                 : "Discover local talent during our art exhibition."}
