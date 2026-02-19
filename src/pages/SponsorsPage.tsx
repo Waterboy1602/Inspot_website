@@ -1,11 +1,10 @@
 import { Heart, Mail } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { useLanguage } from "../context/LanguageContext";
-import logo1 from "figma:asset/teledesk.png";
-import vives from "figma:asset/entrepot.png";
+import teledesk from "figma:asset/teledesk.png";
+import entrepot from "figma:asset/entrepot.png";
+import vives from "figma:asset/vives.jpg";
 import cm from "figma:asset/cm.png";
-const entrepot =
-  "https://images.unsplash.com/photo-1557821552-17105176677c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080";
 
 export function SponsorsPage() {
   const { t } = useLanguage();
@@ -45,7 +44,7 @@ export function SponsorsPage() {
           <div className="flex justify-center mb-20">
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-center max-w-sm w-full h-48">
               <img
-                src={logo1}
+                src={teledesk}
                 alt="Teledesk Group"
                 className="max-h-full max-w-full object-contain"
               />
