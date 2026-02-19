@@ -24,7 +24,7 @@ export default defineConfig({
       "figma:asset/party.png": path.resolve(__dirname, "./src/assets/party.png"),
       "figma:asset/entrepot.png": path.resolve(__dirname, "./src/assets/entrepot.png"),
       "figma:asset/cm.png": path.resolve(__dirname, "./src/assets/cm.png"),
-      "figma:asset/vives.jpg": path.resolve(__dirname, "./src/assets/vives.jpg"),
+      "figma:asset/vives.jpg": path.resolve(__dirname, "./src/assets/vives.png"),
       "embla-carousel-react@8.6.0": "embla-carousel-react",
       "cmdk@1.1.1": "cmdk",
       "class-variance-authority@0.7.1": "class-variance-authority",
