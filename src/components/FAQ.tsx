@@ -7,7 +7,7 @@ interface FAQItem {
   answer: string | React.ReactNode;
 }
 
-const TICKETING_URL = "https://inspot.weticket.io/inspot/shop";
+const TICKETING_URL = "https://my.weezevent.com/inspot";
 
 interface FAQCategory {
   title: string;
@@ -67,7 +67,7 @@ export function FAQ() {
           {
             question: "Hoe kan ik als bedrijf een workshop boeken?",
             answer:
-              "Om als bedrijf deel te nemen aan een van onze workshops kan je contact opnemen met ons via info@inspot.be.",
+              "Om als bedrijf deel te nemen aan een van onze workshops kan je contact opnemen met ons via inspot.scmc@outlook.be.",
           },
         ],
       },
@@ -98,18 +98,14 @@ export function FAQ() {
             ),
           },
           {
-            question: "Wanneer wordt de line-up bekend gemaakt?",
-            answer: "De volledige line-up voor het concert wordt in februari 2026 bekend gemaakt.",
-          },
-          {
             question: "Is het concert staand of zittend?",
             answer:
-              "Het concert is staand. Heb je vanwege een beperking moeite met lang staan? Neem gerust op voorhand contact op met ons team via mail info@inspot.be, dan kijken we wat er mogelijk is.",
+              "Het concert is staand. Heb je vanwege een beperking moeite met lang staan? Neem gerust op voorhand contact op met ons team via mail inspot.scmc@outlook.be, dan kijken we wat er mogelijk is.",
           },
           {
             question: "Help! Ik ben mijn concertticket kwijt. Wat nu?",
             answer:
-              "Kan je je bevestigingsmail van je aankoop niet meer terugvinden? Stuur ons dan een mailtje via info@inspot.be met voornaam- en achternaam en e-mailadres op het ticket. Dan kijken wij voor je en verzenden we de bevestigingsmail opnieuw.",
+              "Kan je je bevestigingsmail van je aankoop niet meer terugvinden? Stuur ons dan een mailtje via inspot.scmc@outlook.be met voornaam- en achternaam en e-mailadres op het ticket. Dan kijken wij voor je en verzenden we de bevestigingsmail opnieuw.",
           },
         ],
       },
@@ -153,7 +149,7 @@ export function FAQ() {
           {
             question: "Overige vragen",
             answer:
-              "Zijn je vragen in verband met toegankelijkheid hierboven niet (volledig) beantwoord of heb je aanvullende noden of zorgen? Neem gerust contact op met ons via mail info@inspot.be. We kijken graag mee naar de best passende oplossing!",
+              "Zijn je vragen in verband met toegankelijkheid hierboven niet (volledig) beantwoord of heb je aanvullende noden of zorgen? Neem gerust contact op met ons via mail inspot.scmc@outlook.be. We kijken graag mee naar de best passende oplossing!",
           },
         ],
       },
@@ -173,7 +169,7 @@ export function FAQ() {
           {
             question: "Mag ik mijn eigen eten en drinken meenemen?",
             answer:
-              "Het is niet toegestaan om zelf eten en drinken mee te nemen. Heb je vragen in verband met ons aanbod van eten en drinken? Neem gerust contact met ons op via info@inspot.be.",
+              "Het is niet toegestaan om zelf eten en drinken mee te nemen. Heb je vragen in verband met ons aanbod van eten en drinken? Neem gerust contact met ons op via inspot.scmc@outlook.be.",
           },
           {
             question: "Is er een vestiaire aanwezig?",
@@ -227,7 +223,7 @@ export function FAQ() {
           {
             question: "How can I book a workshop as a company?",
             answer:
-              "To participate in one of our workshops as a company, you can contact us via info@inspot.be.",
+              "To participate in one of our workshops as a company, you can contact us via inspot.scmc@outlook.be.",
           },
         ],
       },
@@ -257,18 +253,14 @@ export function FAQ() {
             ),
           },
           {
-            question: "When will the line-up be announced?",
-            answer: "The full line-up for the concert will be announced in February 2026.",
-          },
-          {
             question: "Is the concert standing or seated?",
             answer:
-              "The concert is standing. Do you have difficulty standing for long periods due to a disability? Feel free to contact our team in advance via email info@inspot.be, and we will see what is possible.",
+              "The concert is standing. Do you have difficulty standing for long periods due to a disability? Feel free to contact our team in advance via email inspot.scmc@outlook.be, and we will see what is possible.",
           },
           {
             question: "Help! I lost my concert ticket. Now what?",
             answer:
-              "Can't find your purchase confirmation email? Send us an email at info@inspot.be with your first name, last name, and the email address on the ticket. We'll look into it for you and resend the confirmation email.",
+              "Can't find your purchase confirmation email? Send us an email at inspot.scmc@outlook.be with your first name, last name, and the email address on the ticket. We'll look into it for you and resend the confirmation email.",
           },
         ],
       },
@@ -312,7 +304,7 @@ export function FAQ() {
           {
             question: "Other questions",
             answer:
-              "Are your accessibility questions above not (fully) answered or do you have additional needs or concerns? Feel free to contact us via email info@inspot.be. We are happy to look for the best fitting solution together!",
+              "Are your accessibility questions above not (fully) answered or do you have additional needs or concerns? Feel free to contact us via email inspot.scmc@outlook.be. We are happy to look for the best fitting solution together!",
           },
         ],
       },
@@ -332,7 +324,7 @@ export function FAQ() {
           {
             question: "Can I bring my own food and drink?",
             answer:
-              "It is not allowed to bring your own food and drink. Do you have questions about our food and drink offer? Feel free to contact us via info@inspot.be.",
+              "It is not allowed to bring your own food and drink. Do you have questions about our food and drink offer? Feel free to contact us via inspot.scmc@outlook.be.",
           },
           {
             question: "Is there a cloakroom present?",

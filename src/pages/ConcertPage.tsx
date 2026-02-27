@@ -45,7 +45,7 @@ export function AvondconcertPage() {
         <div className="flex flex-wrap gap-6 mb-8 text-gray-600">
           <div className="flex items-center gap-2">
             <Clock className="size-5" />
-            <span>{language === "nl" ? "Timing later bekend" : "Timing announced later"}</span>
+            <span>18:00 - ...</span>
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="size-5" />
@@ -56,47 +56,45 @@ export function AvondconcertPage() {
         <div className="prose max-w-none">
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
             {language === "nl"
-              ? "Sluit de dag af met live optredens van de meest veelbelovende muzikanten. Line-up volgt binnenkort!."
-              : "End the day with live performances from the most promising musicians. Line-up coming soon!."}
+              ? "Sluit de dag af met live optredens van de meest veelbelovende muzikanten."
+              : "End the day with live performances from the most promising musicians."}
           </p>
 
           <h3 className="mb-4 text-[#002F49]">
-            <b>{language === "nl" ? "Hoogtepunten" : "Highlights"}</b>
+            <b>Line-up</b>
           </h3>
           <ul className="space-y-3 mb-8">
             <li className="flex items-start gap-2 text-gray-700">
               <span className="text-[#c11720] mt-1">•</span>
-              <span>{language === "nl" ? "Verschillende live acts" : "Various live acts"}</span>
+              <span>18:00 - 18:30 Trompetspelers </span>
             </li>
             <li className="flex items-start gap-2 text-gray-700">
               <span className="text-[#c11720] mt-1">•</span>
-              <span>{language === "nl" ? "Verschillende genres" : "Various genres"}</span>
+              <span>18:45 - 19:15 Blue Gate</span>
             </li>
             <li className="flex items-start gap-2 text-gray-700">
               <span className="text-[#c11720] mt-1">•</span>
-              <span>{language === "nl" ? "Intieme setting" : "Intimate setting"}</span>
+              <span>19:45 - 20:45 The Dripping Sun</span>
             </li>
             <li className="flex items-start gap-2 text-gray-700">
               <span className="text-[#c11720] mt-1">•</span>
-              <span>{language === "nl" ? "Bar aanwezig" : "Bar available"}</span>
+              <span>21:30 - 22:15 Blue Robin</span>
             </li>
             <li className="flex items-start gap-2 text-gray-700">
               <span className="text-[#c11720] mt-1">•</span>
-              <span>{language === "nl" ? "Line-up volgt binnenkort" : "Line-up coming soon"}</span>
+              <span>23:00 - 00:00 LIGHTSPEED</span>
             </li>
             <li className="flex items-start gap-2 text-gray-700">
               <span className="text-[#c11720] mt-1">•</span>
               <span>
-                {language === "nl"
-                  ? "Afsluitende dj-set na het concert!"
-                  : "Closing DJ set after the concert!"}
+                {language === "nl" ? "Afsluit: Radio Achterhaald" : "Sign-off: Radio Achterhaald"}
               </span>
             </li>
           </ul>
 
           <div className="mt-12 text-center">
             <a
-              href="https://inspot.weticket.io/inspot/shop"
+              href="https://my.weezevent.com/inspot"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-10 py-4 bg-[#c11720] text-white rounded-full font-bold text-lg hover:bg-[#a1131a] transition-all transform hover:scale-105 shadow-xl"

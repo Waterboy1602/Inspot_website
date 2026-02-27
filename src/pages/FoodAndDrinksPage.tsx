@@ -104,8 +104,8 @@ export function FoodAndDrinksPage() {
               <span className="text-[#c11720] mt-1">•</span>
               <span>
                 {language === "nl"
-                  ? "Allergieën of vragen in verband met het eten- en drinkenaanbod? Neem gerust contact op met ons via mail: info@inspot.be!"
-                  : "Allergies or questions regarding the food and drink offer? Feel free to contact us via email: info@inspot.be!"}
+                  ? "Allergieën of vragen in verband met het eten- en drinkenaanbod? Neem gerust contact op met ons via mail: inspot.scmc@outlook.be!"
+                  : "Allergies or questions regarding the food and drink offer? Feel free to contact us via email: inspot.scmc@outlook.be!"}
               </span>
             </li>
           </ul>
@@ -119,11 +119,11 @@ export function FoodAndDrinksPage() {
                 ? "Komt u met uw bedrijf? Wij bieden speciale arrangementen voor bedrijven. Neem contact met ons op via "
                 : "Coming with your company? We offer special packages for businesses. Contact us via "}
               <a
-                href="mailto:info@inspot.be"
+                href="mailto:inspot.scmc@outlook.be"
                 target="_blank"
                 className="text-[#c11720] hover:underline"
               >
-                info@inspot.be
+                inspot.scmc@outlook.be
               </a>{" "}
               {language === "nl" ? "voor de mogelijkheden." : "for the possibilities."}
             </p>

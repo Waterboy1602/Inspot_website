@@ -28,8 +28,8 @@ export function Footer() {
           <div>
             <h4 className="mb-4 text-white">{t("nav.contact")}</h4>
             <div className="space-y-2 text-gray-400">
-              <a href="mailto:info@inspot.be" target="_blank">
-                info@inspot.be
+              <a href="mailto:inspot.scmc@outlook.be" target="_blank">
+                inspot.scmc@outlook.be
               </a>
             </div>
           </div>

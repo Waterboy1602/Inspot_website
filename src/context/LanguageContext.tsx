@@ -18,7 +18,7 @@ const translations: Record<Language, Record<string, any>> = {
       interestSponsoring: "Interesse in sponsoring?",
       interestSponsoringDesc:
         "Wilt u InSpot steunen en samen met ons kunst en cultuur promoten? Neem contact met ons op voor een vrijblijvend gesprek over de mogelijkheden.",
-      contactEmail: "info@inspot.be",
+      contactEmail: "inspot.scmc@outlook.be",
     },
     nav: {
       praktisch: "Praktisch",
@@ -65,7 +65,7 @@ const translations: Record<Language, Record<string, any>> = {
       concertLostTicket: {
         question: "Help! Ik ben mijn concertticket kwijt. Wat nu?",
         answer:
-          "Kan je je bevestigingsmail van je aankoop niet meer terugvinden? Stuur ons dan een mailtje via info@inspot.be met voornaam- en achternaam en e-mailadres op het ticket. Dan kijken wij voor je en verzenden we de bevestigingsmail opnieuw.",
+          "Kan je je bevestigingsmail van je aankoop niet meer terugvinden? Stuur ons dan een mailtje via inspot.scmc@outlook.be met voornaam- en achternaam en e-mailadres op het ticket. Dan kijken wij voor je en verzenden we de bevestigingsmail opnieuw.",
       },
     },
     sponsors: {
@@ -94,7 +94,7 @@ const translations: Record<Language, Record<string, any>> = {
       interestSponsoring: "Interested in sponsoring?",
       interestSponsoringDesc:
         "Would you like to support InSpot and promote art and culture with us? Contact us for a non-binding conversation about the possibilities.",
-      contactEmail: "info@inspot.be",
+      contactEmail: "inspot.scmc@outlook.be",
     },
     nav: {
       praktisch: "Practical",
@@ -141,7 +141,7 @@ const translations: Record<Language, Record<string, any>> = {
       concertLostTicket: {
         question: "Help! I lost my concert ticket. Now what?",
         answer:
-          "Can't find your purchase confirmation email? Send us an email at info@inspot.be with your first name, last name, and the email address on the ticket. We'll look into it for you and resend the confirmation email.",
+          "Can't find your purchase confirmation email? Send us an email at inspot.scmc@outlook.be with your first name, last name, and the email address on the ticket. We'll look into it for you and resend the confirmation email.",
       },
     },
     sponsors: {

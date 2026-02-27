@@ -36,7 +36,7 @@ export function NavigationMetTickets() {
               </Link>
             ))}
             <a
-              href="https://inspot.weticket.io/inspot/shop"
+              href="https://my.weezevent.com/inspot"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 bg-[#c11720] text-white rounded-full hover:bg-[#c11720]/90 transition-colors"
@@ -70,7 +70,7 @@ export function NavigationMetTickets() {
                 </Link>
               ))}
               <a
-                href="https://inspot.weticket.io/inspot/shop"
+                href="https://my.weezevent.com/inspot"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

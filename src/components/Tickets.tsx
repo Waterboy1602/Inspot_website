@@ -2,7 +2,7 @@ import { Ticket, Check, ExternalLink } from "lucide-react";
 
 export function Tickets() {
   // Externe ticketing URL
-  const TICKETING_URL = "https://inspot.weticket.io/inspot/shop";
+  const TICKETING_URL = "https://my.weezevent.com/inspot";
 
   const ticketOptions = [
     {
@@ -13,9 +13,9 @@ export function Tickets() {
         "Toegang kunstexposities",
         "Toegang food & drinks area",
         "Toegang tot alle publieke ruimtes",
-        "Rondleidingen (op aanvraag)"
+        "Rondleidingen (op aanvraag)",
       ],
-      highlight: false
+      highlight: false,
     },
     {
       title: "Concert Ticket",
@@ -28,12 +28,15 @@ export function Tickets() {
         "€12 regulier tarief",
         "Intieme setting (beperkte capaciteit)",
       ],
-      highlight: true
-    }
+      highlight: true,
+    },
   ];
 
   return (
-    <section id="tickets" className="py-20 px-4 bg-gradient-to-br from-[#77160e] via-[#c11720] to-[#002F49]">
+    <section
+      id="tickets"
+      className="py-20 px-4 bg-gradient-to-br from-[#77160e] via-[#c11720] to-[#002F49]"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-6">
@@ -41,8 +44,8 @@ export function Tickets() {
           </div>
           <h2 className="mb-4 text-white">Tickets</h2>
           <p className="text-lg text-white/90 max-w-2xl mx-auto">
-            Kies je ticket en maak je dag op Inspot compleet. De basis toegang is gratis, 
-            upgrade voor workshops en het concert.
+            Kies je ticket en maak je dag op Inspot compleet. De basis toegang is gratis, upgrade
+            voor workshops en het concert.
           </p>
         </div>
 
@@ -51,8 +54,8 @@ export function Tickets() {
             <div
               key={index}
               className={`bg-white rounded-2xl p-8 ${
-                option.highlight 
-                  ? "ring-4 ring-[#fef0d6] shadow-2xl transform md:scale-105" 
+                option.highlight
+                  ? "ring-4 ring-[#fef0d6] shadow-2xl transform md:scale-105"
                   : "shadow-lg"
               }`}
             >
@@ -83,8 +86,8 @@ export function Tickets() {
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center text-white">
           <h3 className="mb-4 text-white">Bestel je tickets</h3>
           <p className="mb-6 text-white/90 max-w-2xl mx-auto">
-            Tickets worden verkocht via onze ticketing partner. Klik op de knop hieronder 
-            om doorgestuurd te worden naar het bestelformulier.
+            Tickets worden verkocht via onze ticketing partner. Klik op de knop hieronder om
+            doorgestuurd te worden naar het bestelformulier.
           </p>
           <a
             href={TICKETING_URL}
@@ -110,15 +113,11 @@ export function Tickets() {
           </div>
           <div className="text-center">
             <h4 className="mb-2 text-white">Direct bevestiging</h4>
-            <p className="text-sm text-white/80">
-              Ontvang je tickets direct per e-mail
-            </p>
+            <p className="text-sm text-white/80">Ontvang je tickets direct per e-mail</p>
           </div>
           <div className="text-center">
             <h4 className="mb-2 text-white">Flexibel annuleren</h4>
-            <p className="text-sm text-white/80">
-              Tot 48 uur van tevoren kosteloos annuleren
-            </p>
+            <p className="text-sm text-white/80">Tot 48 uur van tevoren kosteloos annuleren</p>
           </div>
         </div>
       </div>

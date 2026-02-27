@@ -64,7 +64,7 @@ export function Navigation() {
             </div>
 
             <a
-              href="https://inspot.weticket.io/inspot/shop"
+              href="https://my.weezevent.com/inspot"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#c11720] text-white px-5 py-2 rounded-full font-medium hover:bg-[#a1131a] transition-colors whitespace-nowrap ml-2"
@@ -109,7 +109,7 @@ export function Navigation() {
                 </Link>
               ))}
               <a
-                href="https://inspot.weticket.io/inspot/shop"
+                href="https://my.weezevent.com/inspot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#c11720] text-white px-5 py-3 rounded-full font-medium hover:bg-[#a1131a] transition-colors text-center"

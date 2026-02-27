@@ -222,11 +222,11 @@ export function VoorBedrijvenPage() {
                     : "Do you have specific wishes or questions? We are of course open to working with you to develop a formula tailored to your company. We have space for a limited number of companies. If you are interested, let us know quickly via our email!"}
                 </p>
                 <a
-                  href="mailto:info@inspot.be"
+                  href="mailto:inspot.scmc@outlook.be"
                   target="_blank"
                   className="inline-block bg-white text-[#77160e] px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors shadow-lg"
                 >
-                  info@inspot.be
+                  inspot.scmc@outlook.be
                 </a>
               </div>
             </div>
