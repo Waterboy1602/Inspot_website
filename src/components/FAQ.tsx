@@ -31,8 +31,8 @@ export function FAQ() {
                 <p className="mb-4">
                   Nee, het is niet noodzakelijk om van tevoren tickets te kopen. Je kan ook aan de
                   deur tickets kopen. Echter zijn de plaatsen beperkt en raden we aan om op voorhand
-                  tickets te kopen om teleurstelling te voorkomen. Indien het uitverkocht is zal dit
-                  duidelijk vermeld staan op de website.
+                  tickets te kopen om teleurstelling te voorkomen. Indien het uitverkocht is, zal
+                  dit duidelijk vermeld staan op de website.
                 </p>
                 <a
                   href={TICKETING_URL}
@@ -54,6 +54,11 @@ export function FAQ() {
             question: "Is er eten en drinken op het evenement?",
             answer:
               "Ja, er zullen pasta en versnaperingen te krijgen zijn. De bar is de doorlopend geopend.",
+          },
+          {
+            question: "Kan er cash betaald worden op het evenement?",
+            answer:
+              "Nee, het volledige evenement is cashless. Er kan enkel betaald worden met kaart of Payconiq.",
           },
         ],
       },
@@ -83,8 +88,9 @@ export function FAQ() {
                   of leerlingenkaart nodig. De reguliere tickets (niet-studenten) kosten €12 in
                   voorverkoop. Tickets kunnen online of aan de deur worden gekocht. Let op dat de
                   online ticketverkoop 1 dag voor het concert stopt. Tickets die aan de deur gekocht
-                  worden zullen meer kosten. Daarnaast heeft de concertzaal heeft een beperkte
-                  capaciteit, dus we raden aan om van tevoren tickets te kopen.
+                  worden zullen meer kosten: €9 voor studenten en €13 voor volwassenen. Daarnaast
+                  heeft de concertzaal een beperkte capaciteit, dus we raden aan om van tevoren
+                  tickets te kopen.
                 </p>
                 <a
                   href={TICKETING_URL}
@@ -211,6 +217,10 @@ export function FAQ() {
             question: "Is there food and drink at the event?",
             answer: "Yes, pasta and snacks will be available. The bar is open continuously.",
           },
+          {
+            question: "Can I pay with cash at the event?",
+            answer: "No, the event is entirely cashless. We only accept card payments or Payconiq.",
+          },
         ],
       },
       {
@@ -238,8 +248,9 @@ export function FAQ() {
                   For students, the concert costs €8 in presale. You need a student or pupil card
                   for this. Regular tickets (non-students) cost €12 in presale. Tickets can be
                   bought online or at the door. Note that online ticket sales stop 1 day before the
-                  concert. Tickets bought at the door will cost more. Additionally, the concert hall
-                  has a limited capacity, so we recommend buying tickets in advance.
+                  concert. Tickets bought at the door will cost more: €9 for students and €13 for
+                  adults. Additionally, the concert hall has a limited capacity, so we recommend
+                  buying tickets in advance.
                 </p>
                 <a
                   href={TICKETING_URL}

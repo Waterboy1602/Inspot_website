@@ -83,8 +83,8 @@ export function Praktisch() {
             </p>
             <p className="text-gray-600">
               {language === "nl"
-                ? "Concert: €8 studenten, €12 regulier"
-                : "Concert: €8 students, €12 regular"}
+                ? "Concert: €8 studenten, €12 regulier. ADD: €9/€13"
+                : "Concert: €8 students, €12 regular. OTD: €9/€13"}
             </p>
           </div>
         </div>
