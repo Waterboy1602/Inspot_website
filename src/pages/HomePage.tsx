@@ -104,7 +104,7 @@ export function HomePage() {
             {t("common.moreInfo")}
           </Link>
           <a
-            href="https://inspot.weticket.io/inspot/shop"
+            href="https://my.weezevent.com/inspot"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-[#c11720] text-white rounded-full hover:bg-[#a1131a] transition-colors inline-block font-medium shadow-lg"
